@@ -3,6 +3,8 @@
 #include <string.h>
 #include <stdbool.h>
 
+/* Compile and Run program: requires gcc and g++*/
+
 char fileName[100];
 char finalCmd[500];
 char finFilename[200];
