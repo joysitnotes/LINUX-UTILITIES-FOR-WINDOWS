@@ -3,7 +3,6 @@
 #include <string.h>
 #include <stdbool.h>
 
-
 char fileName[100];
 char finalCmd[500];
 char finFilename[200];
