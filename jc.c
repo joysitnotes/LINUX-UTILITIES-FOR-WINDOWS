@@ -65,7 +65,6 @@ void compileCpp(){
 
 	sprintf(finalCmd, "g++ %s -o %s",  fileName, finFilename);
 	system(finalCmd);
-	system(finFilename);
 
 }
 
@@ -98,7 +97,6 @@ void compileC(){
 
 	sprintf(finalCmd, "gcc %s -o %s",  fileName, finFilename);
 	system(finalCmd);
-	system(finFilename);
 
 }
 
@@ -174,16 +172,16 @@ int main(int argc, char *argv[])
 
 
 	if (sameStr(argv[1], "-h")) {
-		printf("\ncr or Compile Run is a program that can compile\n");
-		printf("and run files with .c or .cpp extensions\n");	
+		printf("\njc or Just Compile is a program that can compile\n");
+		printf("files with .c or .cpp extensions\n");	
 		printf("Usage: cr prog.c \n");
 		printf("Usage: cr prog.cpp \n\n");
 		exit(0);
 	}
 
 	if (sameStr(argv[1], "--help")) {
-		printf("\ncr or Compile Run is a program that can compile\n");
-		printf("and run files with .c or .cpp extensions\n");	
+		printf("\njc or Just Compile is a program that can compile\n");
+		printf("files with .c or .cpp extensions\n");	
 		printf("Usage: cr prog.c \n");
 		printf("Usage: cr prog.cpp \n\n");
 		exit(0);
